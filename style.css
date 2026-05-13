@@ -1,4 +1,4 @@
-:root{
+:root {
     --cor4: #2e3440;
     --cor3: #3b4252;
     --cor2: #434c5e;
@@ -11,11 +11,11 @@
     margin: 0;
 }
 
-body{
+body {
     background-color: var(--cor4);
 }
 
-strong{
+strong {
     color: #b3bac7;
 }
 
@@ -52,35 +52,60 @@ strong{
     color: var(--cor-texto);
 }
 
-nav{
+nav {
     margin-top: 3em;
     text-align: center;
 }
 
-#links a{
+#links a {
     margin: 0px 0.8em 0px 0.8em;
 }
 
-#links img{
+#links img {
     width: 3em;
     transition: 0.2s;
 }
 
-#links img:hover{
+#links img:hover {
     opacity: 0.6;
 }
 
-#abas a{
+#abas a {
     border-radius: 6px;
     margin-right: 2px;
     text-decoration: none;
     color: #d8dee9;
     transition: 0.2s;
 }
-#abas a:hover{
+
+#abas a:hover {
     background-color: var(--cor2);
     color: var(--cor-texto);
 }
-#abas a::before{
+
+#abas a::before {
     content: "\276f\00A0";
+}
+
+footer {
+    text-align: center;
+    margin-top: 0.8em;
+}
+
+footer p {
+    color: var(--cor-texto);
+    padding: 10px;
+    border-radius: 0.6em;
+    display: inline-block;
+    background-color: var(--cor3);
+}
+
+footer a{
+    text-decoration: none;
+    color: #81a1c1;
+    transition: 0.2s;
+}
+
+footer a:hover {
+    color: #88c0d0;
 }
