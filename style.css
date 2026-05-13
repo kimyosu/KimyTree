@@ -1,0 +1,86 @@
+:root{
+    --cor4: #2e3440;
+    --cor3: #3b4252;
+    --cor2: #434c5e;
+    --cor1: #4c566a;
+    --cor-texto: #eceff4;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--cor4);
+}
+
+strong{
+    color: #b3bac7;
+}
+
+#box_principal {
+    border-radius: 0.6em;
+    margin: 1em auto 0px auto;
+    width: 500px;
+    height: 550px;
+    background-color: var(--cor3);
+}
+
+#separador {
+    margin: 1em 2em 0 2em;
+}
+
+#icon_principal {
+    text-align: center;
+}
+
+#icon_principal img {
+    min-width: 150px;
+    max-width: 150px;
+    margin-top: 2em;
+}
+
+#biografia {
+    margin-top: 1em;
+}
+
+#biografia>p {
+    text-align: justify;
+    margin-bottom: 0.4em;
+    text-align: center;
+    color: var(--cor-texto);
+}
+
+nav{
+    margin-top: 3em;
+    text-align: center;
+}
+
+#links a{
+    margin: 0px 0.8em 0px 0.8em;
+}
+
+#links img{
+    width: 3em;
+    transition: 0.2s;
+}
+
+#links img:hover{
+    opacity: 0.6;
+}
+
+#abas a{
+    border-radius: 6px;
+    margin-right: 2px;
+    text-decoration: none;
+    color: #d8dee9;
+    transition: 0.2s;
+}
+#abas a:hover{
+    background-color: var(--cor2);
+    color: var(--cor-texto);
+}
+#abas a::before{
+    content: "\276f\00A0";
+}
